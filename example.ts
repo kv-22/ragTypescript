@@ -13,7 +13,6 @@ async function main() {
 
     const index = await VectorStoreIndex.fromDocuments([document]);
     // const index2 = await VectorStoreIndex.init(nodes=sentence_window_node_parser_nodes);
-    // index2.buildIndexFromNodes(nodes);
 
 
     const queryEngine = index.asQueryEngine();
